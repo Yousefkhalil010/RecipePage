@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+--DarkRaspberry: hsl(332, 51%, 32%);
+--White: hsl(0, 0%, 100%);
+--RoseWhite: hsl(330, 100%, 98%);
+--Eggshell: hsl(30, 54%, 90%);
+--LightGrey: hsl(30, 18%, 87%);
+--WengeBrown: hsl(30, 10%, 34%);
+--DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body{
+    background-color: rgb(243, 223, 233);
+    height: 1350px
+}
+hr{
+    width: 90%;
+}
+.innerPage{
+    border-radius: 10px;
+    background-color: white;
+    margin:50px auto;
+    height: 100%;
+    text-align: center;
+    width: 50%;   
+    
+}
+.image {
+    max-width: 90%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+h1{
+    margin-left: 25px;
+    text-align: left;
+    font-family: 'Young Serif';
+    font-size: 25px;
+    
+}
+h2{
+    margin-left: 25px;
+    text-align: left;
+    color: hsl(14, 45%, 36%);
+}
+p{
+    text-align: left;
+    font-size:14px;
+    margin-left: 25px;
+    font-family: 'outfit';
+    font-size: 13px;
+}
+ul li{
+    text-align: left;
+    padding-left: 15px;
+}
+.list{
+    margin:50px auto;
+    width:90%;
+    background-color: rgb(243, 223, 233);
+    height: 130px;
+    font-family: 'outfit';
+    font-size: 13px;
+}
+
+h3{
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 20px;
+    color: hsl(332, 51%, 32%);
+    font-family: 'outfit';
+}
+.secondlist{
+    margin-left: 15px;
+    font-family: 'outfit'; 
+    font-size: 13px;
+
+}
+ol {
+  list-style-type: none; 
+  counter-reset: my-counter;
+    
+   
+}
+
+ol li::before {
+  content: counter(my-counter) ". ";
+  font-weight: bold; 
+  margin-right: 0.5em;
+  color: hsl(14, 45%, 36%);
+  counter-increment: my-counter;
+}
+
+ol li{
+    padding-top: 10px;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'outfit';
+}
+
+  table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 25px;
+  }
+   td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-left: none; 
+    border-top: none;
+    border-right: none;
+    font-size: 14px;
+    
+  }
+  td:nth-child(2) {
+    color: hsl(14, 45%, 36%); 
+    font-weight: bold;
+    
+  }
+.bld{
+    color: hsl(24, 5%, 18%);
+    font-weight: bold;
+}
+.attribution{
+    text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+    .cnt{
+        display: block;
+        margin-left: 25px; 
+      }
+}
+  
